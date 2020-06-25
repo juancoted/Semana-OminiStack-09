@@ -1,2 +1,4 @@
 # Semana-OminiStack-09
-Projeto da 9° semana Omnistack via web com o instrutor Diego Fernandes
+Repositório para estudos com base no projeto omnistack.
+
+projeto visa fornecer uma plataforma para encurtar o caminho entre clientes e fornecedores de serviços.
