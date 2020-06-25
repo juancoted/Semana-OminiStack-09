@@ -1,0 +1,24 @@
+label#thumbnail{
+    margin-bottom: 20px;
+    border:1px dashed;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+
+    /*faz com que os icone da camera fiquem centralizado dentro da lebel*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label#thumbnail input{
+    /*esconde o input*/
+    display: none;
+}
+
+label#thumbnail.has-thumbnail{
+    border: 0;
+}
+label#thumbnail.has-thumbnail img{
+    display: none;
+}
