@@ -16,10 +16,7 @@ const io = socketio(server);
 
 
 //conexão com o mongoDB
-mongoose.connect('mongodb+srv://juancoted:195952@cluster0-k26ii.mongodb.net/semana09?retryWrites=true&w=majority', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-})
+mongoose.connect();
 //retem a informação dos usuários conectaddos, não é a melhor forma em produção, recomendação do banco reditis
 const connectedUsers = {};
 io.on('connection', socket => {
